@@ -227,7 +227,9 @@ function should_download_subs_in(language)
         if not track['lang'] and (track['external'] or not track['title'])
           and i == #sub_tracks then
             local status = track['selected'] and ' active' or ' present'
-            log('Unknown ' .. subtitles .. status)
+            if display_active_subtitle_type then
+                log('Unknown ' .. subtitles .. status)
+            end
             mp.msg.warn('=> NOT downloading new subtitles')
             return false -- Don't download if 'lang' key is absent
         elseif track['lang'] == language[3] or track['lang'] == language[2] or
