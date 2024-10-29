@@ -1,0 +1,9 @@
+[submodule "scripts/autosubsync"]
+	path = scripts/autosubsync
+	url = https://github.com/Commander07/autosubsync-mpv
+[submodule "scripts/dynamic-crop"]
+	path = scripts/dynamic-crop
+	url = https://github.com/Ashyni/mpv-scripts
+[submodule "scripts/thumbfast"]
+	path = scripts/thumbfast
+	url = https://github.com/po5/thumbfast
