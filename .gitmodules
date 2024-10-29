@@ -1,6 +1,6 @@
 [submodule "scripts/autosubsync"]
 	path = scripts/autosubsync
-	url = https://github.com/Commander07/autosubsync-mpv
+	url = https://github.com/joaquintorres/autosubsync-mpv
 [submodule "scripts/dynamic-crop"]
 	path = scripts/dynamic-crop
 	url = https://github.com/Ashyni/mpv-scripts
