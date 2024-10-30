@@ -7,3 +7,6 @@
 [submodule "scripts/thumbfast"]
 	path = scripts/thumbfast
 	url = https://github.com/po5/thumbfast
+[submodule "scripts/ModernZ"]
+	path = scripts/ModernZ
+	url = https://github.com/Commander07/ModernZ

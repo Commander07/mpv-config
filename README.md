@@ -9,6 +9,11 @@ The mpv configs and scripts i use.
 - [ffmpeg 6+](https://ffmpeg.org/) is required for dynamic-crop
 - [guessit](https://github.com/guessit-io/guessit) is required for guess-media-title
 
+## Installation
+
+1. Clone into your mpv config directory
+2. Create suitable `main.lua` files for `dynamic-crop`, `thumbfast` and `ModernZ`. See [1](https://github.com/Ashyni/mpv-scripts/pull/27), [2](https://github.com/po5/thumbfast/pull/136) and [3](https://github.com/Samillion/ModernZ/issues/133)
+
 ## Scripts
 
 - [autosubsync](https://github.com/joaquintorres/autosubsync-mpv)
