@@ -11,8 +11,10 @@ The mpv configs and scripts i use.
 
 ## Installation
 
-1. Clone into your mpv config directory
-2. Create suitable `main.lua` files for `dynamic-crop`, `thumbfast` and `ModernZ`. See [1](https://github.com/Ashyni/mpv-scripts/pull/27), [2](https://github.com/po5/thumbfast/pull/136) and [3](https://github.com/Samillion/ModernZ/issues/133)
+1. Install requirements and make sure they are on your path
+2. Clone into your mpv config directory
+3. Create suitable `main.lua` files for `dynamic-crop`, `thumbfast` and `ModernZ`. See [1](https://github.com/Ashyni/mpv-scripts/pull/27), [2](https://github.com/po5/thumbfast/pull/136) and [3](https://github.com/Samillion/ModernZ/issues/133)
+4. Install ModernZ font to system or by moving it to the appropriate mpv fonts directory.
 
 ## Scripts
 
@@ -28,7 +30,6 @@ The mpv configs and scripts i use.
   - Pauses playback when mpv is minimized
 - [ModernZ](https://github.com/Samillion/ModernZ)
   - OSC replacement
-  - **Changes:** Added additional hover effects
 - [thumbfast](https://github.com/po5/thumbfast)
   - Generates seek thumbnails on-the-fly
 - [guess-media-title](https://github.com/zenwarr/mpv-config/blob/master/scripts/guess-media-title.lua)
