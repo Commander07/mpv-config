@@ -236,7 +236,9 @@ function should_download_subs_in(language)
           (track['title'] and track['title']:lower():find(language[3])) then
             if not track['selected'] then
                 mp.set_property('sid', track['id'])
-                log('Enabled ' .. language[1] .. ' ' .. subtitles .. '!')
+                if display_active_subtitle_type then
+                    log('Enabled ' .. language[1] .. ' ' .. subtitles .. '!')
+                end
             elseif display_active_subtitle_type then
                 log(language[1] .. ' ' .. subtitles .. ' active')
             end
