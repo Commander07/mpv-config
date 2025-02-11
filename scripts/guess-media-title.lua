@@ -21,7 +21,7 @@ local opts = {
     show_episode_title = true,
     episode_spec = "s%02de%02d",
     title_format = "%s (%s — %s)",
-    short_title_format = "%s (%s)"
+    short_title_format = "%s (%s)",
     invoke_python = true
 }
 
