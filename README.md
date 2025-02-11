@@ -1,6 +1,6 @@
 # mpv-config
 
-The mpv configs and scripts i use.
+I no longer use these exact configs as i have switched to NixOS but the bulk of it remains the same.
 
 ## Requirements
 
