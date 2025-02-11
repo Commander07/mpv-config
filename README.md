@@ -1,6 +1,6 @@
 # mpv-config
 
-I no longer use these exact configs as i have switched to NixOS but the bulk of it remains the same.
+I no longer use these exact configs as i have switched to NixOS but the bulk of it remains the same. My Nix Flake + HM setup can be found [here](./Nix.md).
 
 ## Requirements
 
