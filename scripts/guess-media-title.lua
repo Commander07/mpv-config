@@ -22,6 +22,7 @@ local opts = {
     episode_spec = "s%02de%02d",
     title_format = "%s (%s — %s)",
     short_title_format = "%s (%s)"
+    invoke_python = true
 }
 
 options.read_options(opts, "guess-media-title")
@@ -100,11 +101,11 @@ local function guess_media_title()
     if not should_guess() then
         return
     end
-
+    
     mp.command_native_async({
         name = "subprocess",
         capture_stdout = true,
-        args = { "python", "-m", "guessit", "--json", mp.get_property_native("filename") }
+        args = (opts.invoke_python and { "python", "-m", "guessit", "--json", mp.get_property_native("filename") } or { "guessit", "--json", mp.get_property_native("filename") })[1]
     }, on_guessit_completed)
 end
 
