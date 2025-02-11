@@ -105,7 +105,7 @@ local function guess_media_title()
     mp.command_native_async({
         name = "subprocess",
         capture_stdout = true,
-        args = (opts.invoke_python and { "python", "-m", "guessit", "--json", mp.get_property_native("filename") } or { "guessit", "--json", mp.get_property_native("filename") })[1]
+        args = (opts.invoke_python and { "python", "-m", "guessit", "--json", mp.get_property_native("filename") } or { "guessit", "--json", mp.get_property_native("filename") })
     }, on_guessit_completed)
 end
 
